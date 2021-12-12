@@ -220,6 +220,11 @@ ul {
     display: none;
 }
 
+.page:hover, .page-active {
+    transition: 0.5s;
+    color: var(--accent);
+}
+
 @keyframes strikethrough {
 	from {
 		transform: scaleX(0);
